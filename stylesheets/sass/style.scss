@@ -212,7 +212,7 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 
 .text-aside-block{
-  padding: 0 45px 0 56px;
+  padding: 0 45px 0 50px;
 }
 
 .second-aside-block {
@@ -235,18 +235,14 @@ a:hover                        { text-decoration:none; }
 
 .contacts {
   //background-color: #1f252a;
-  width: 441px;
-  height: 308px;
-  background-color: #1f252a;
-  position: absolute;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding-top: 90px;
-
-  ul {
-    margin-left: 40px;
-  }
+  width: 441px;
+  height: 308px;
+  position: absolute;
+  padding-top: 70px;
+  padding-left: 30px;
+  background-color: #1f252a;
 
   li {
     font-family: "Montserrat-Regular";
@@ -262,7 +258,7 @@ a:hover                        { text-decoration:none; }
     color: #caa546;
     font-size: 22px;
     position: relative;
-    top: 55px;
+    top: 20px;
     text-decoration: none;
   }
 }
@@ -274,6 +270,24 @@ a:hover                        { text-decoration:none; }
 .footer {
   height: 190px;
   background-color: #1f252a;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 25px;
+    width: 50%;
+    li:first-child {
+      margin-right: -100px;
+    }
+    img {
+      width: 50%;
+    }
+  }
+
 
 
 }
