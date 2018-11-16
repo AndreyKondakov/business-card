@@ -61,6 +61,14 @@ a:hover                        { text-decoration:none; }
   font-family: "Montserrat-Regular";
   src: url("../../fonts/Montserrat/Montserrat-Regular.ttf")
 }
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../../fonts/Montserrat/Montserrat-SemiBold.ttf")
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../../fonts/Montserrat/Montserrat-Bold.ttf")
+}
 
 
 
@@ -189,26 +197,19 @@ a:hover                        { text-decoration:none; }
   }
 }
 
+.team-section {
+  background-image: url(../../image/joshua-ness-225844.png);
+  background-size: cover;
+  height: 724px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
 
 
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------SIDEBAR--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------*/
-/*-------------------------------------FOOTER---------------------------------------*/
-/*----------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------*/
-/*-------------------------------------OTHER----------------------------------------*/
-/*----------------------------------------------------------------------------------*/
-
-.container {
-  background-color: #fffeda;
-  width: 1240px;
-  height: 100%;
-  margin: auto;
-}
 
 .text-aside-block{
   padding: 0 45px 0 56px;
@@ -221,3 +222,70 @@ a:hover                        { text-decoration:none; }
     padding-top: 11px;
   }
 }
+
+.third-aside-block {
+  padding-top: 120px;
+
+  p {
+    font-size: 34px;
+    font-family: "Montserrat-SemiBold";
+    margin-top: 40px;
+  }
+}
+
+.contacts {
+  //background-color: #1f252a;
+  width: 441px;
+  height: 308px;
+  background-color: #1f252a;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+
+  ul {
+    margin-left: 40px;
+  }
+
+  li {
+    font-family: "Montserrat-Regular";
+    font-size: 21px;
+    margin-top: 44px;
+  }
+
+  i {
+    margin-right: 34px;
+  }
+  a {
+    font-family: "Montserrat-Bold";
+    color: #caa546;
+    font-size: 22px;
+    position: relative;
+    top: 55px;
+    text-decoration: none;
+  }
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.footer {
+  height: 190px;
+  background-color: #1f252a;
+
+
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------OTHER----------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.container {
+  background-color: #fffeda;
+  width: 1240px;
+  height: 100%;
+  margin: auto;
+}
+
