@@ -204,8 +204,30 @@ a:hover                        { text-decoration:none; }
   width: 100%;
   display: flex;
   align-items: flex-end;
-}
+  justify-content: space-between;
+  z-index: 2;
 
+  p:last-child {
+    color: #000;
+  }
+
+  .alignment {
+    align-self: flex-start;
+    margin-top: 64px;
+    z-index: 2;
+    h2 {
+      margin-bottom: 25px;
+      color: #fff;
+      z-index: 2;
+    }
+    p {
+      font-size: 18px;
+      font-family: "Montserrat-Bold";
+      margin-bottom: 15px;
+      z-index: 2;
+    }
+  }
+}
 
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------SIDEBAR--------------------------------------*/
@@ -225,7 +247,6 @@ a:hover                        { text-decoration:none; }
 
 .third-aside-block {
   padding-top: 120px;
-
   p {
     font-size: 34px;
     font-family: "Montserrat-SemiBold";
@@ -234,7 +255,6 @@ a:hover                        { text-decoration:none; }
 }
 
 .contacts {
-  //background-color: #1f252a;
   display: flex;
   justify-content: center;
   width: 441px;
@@ -249,7 +269,6 @@ a:hover                        { text-decoration:none; }
     font-size: 21px;
     margin-top: 44px;
   }
-
   i {
     margin-right: 34px;
   }
@@ -274,12 +293,14 @@ a:hover                        { text-decoration:none; }
   justify-content: flex-end;
   align-items: center;
 
+
   ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-right: 25px;
     width: 50%;
+    z-index: 2;
     li:first-child {
       margin-right: -100px;
     }
@@ -287,9 +308,6 @@ a:hover                        { text-decoration:none; }
       width: 50%;
     }
   }
-
-
-
 }
 
 /*----------------------------------------------------------------------------------*/
@@ -303,3 +321,12 @@ a:hover                        { text-decoration:none; }
   margin: auto;
 }
 
+.bg-blue {
+  background-color: #599fd6b8;
+  width: 800px;
+  height: 914px;
+  position: absolute;
+  right: 109px;
+  top: 832px;
+  z-index: 1;
+}
